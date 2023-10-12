@@ -28,7 +28,7 @@ This API consist of four(4) endpoints:
   
 3. updateName
    {
-   "id":7,
+   "id":2,
    "lname":"nico",
    "fname":"robin"
    }
@@ -46,7 +46,7 @@ This API consist of four(4) endpoints:
 
 2. printName
    {
-   "status":"success","data":["lname":"hortizuela","fname":"manny","lname":"licayan","fname":"arnold"]
+   "status":"success","data":["lname":"nico","fname":"robin","lname":"gaspar","fname":"aljon"]
    }
 
 3. updateName
