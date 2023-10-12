@@ -29,8 +29,8 @@ This API consist of four(4) endpoints:
 3. updateName
    {
    "id":2,
-   "lname":"nico",
-   "fname":"robin"
+   "lname":"tony",
+   "fname":"chopper"
    }
 
 4. deleteName
