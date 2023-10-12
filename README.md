@@ -62,17 +62,17 @@ This API consist of four(4) endpoints:
 ## Usage
 In order to run the API, follow this following steps:
 
-Step 1: Launch XAMPP and/or SQLyog.
-Step 2: Create a database named 'demo' and a table called 'names' with columns 'id,' 'lname,' and 'fname.' Make sure to set 'id' as the primary key with auto-increment. 
-Step 3: Place the 'api' folder in the following directory: C://xampp/htdocs.
-Step 4: Install and open Postman, a tool for testing APIs.
-Step 5: Choose the appropriate HTTP method, whether it's GET or POST.
-Step 6: Enter the following URLs for the respective endpoints:
-          1. 'postName' endpoint: http://localhost/api/public/postName
-          2. 'printName' endpoint: http://localhost/api/public/printName
-          3. 'updateName' endpoint: http://localhost/api/public/updateName
-          4. 'deleteName' endpoint: http://localhost/api/public/deleteName
-Step 7: In Postman, navigate to the 'Body' tab and input the JSON request payload as needed for your API requests.
+   1. Launch XAMPP and/or SQLyog.
+   2. Create a database named 'demo' and a table called 'names' with columns 'id,' 'lname,' and 'fname.' Make sure to set 'id' as the primary key with auto-increment.
+   3. Place the 'api' folder in the following directory: C://xampp/htdocs.
+   4. Install and open Postman, a tool for testing APIs.
+   5. Choose the appropriate HTTP method, whether it's GET or POST.
+   6. Enter the following URLs for the respective endpoints:
+          - 'postName' endpoint: http://localhost/api/public/postName
+          - 'printName' endpoint: http://localhost/api/public/printName
+          - 'updateName' endpoint: http://localhost/api/public/updateName
+          - 'deleteName' endpoint: http://localhost/api/public/deleteName
+   7. In Postman, navigate to the 'Body' tab and input the JSON request payload as needed for your API requests.
 
 ## License
 No license has been used in this API.
