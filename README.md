@@ -1,13 +1,10 @@
-"# API" 
+# API 
 This API allows you the insert, read, update, and delete names in a database.
 
-"## API Description"
-This PHP code defines a basic API using the Slim framework. The API provides 
-endpoints for performing CRUD (Create, Read, Update, Delete) for various operations 
-related to names in a MySQL database. Ensure that you have a database named "demo" 
-created and properly configured to support the operations defined in the code.
+## API Description
+This PHP code defines a basic API using the Slim framework. The API provides endpoints for performing CRUD (Create, Read, Update, Delete) for various operations related to names in a MySQL database. Ensure that you have a database named "demo" created and properly configured to support the operations defined in the code.
 
-"## API Endpoints"
+## API Endpoints
 This API consist of four(4) endpoints:
 
 1. postName:    This endpoint allows user to add a new name to the database. The code parses the incoming JSON data (with 'fname' and 'lname') and inserts it into the MySQL database. It returns a JSON response indicating the success or failure of the insertion.
@@ -18,7 +15,7 @@ This API consist of four(4) endpoints:
 
 4. deleteName:  This endpoint allows user to delete a name by providing its 'id'. The code prepares a SQL statement to delete the specified record from the database and returns a JSON response indicating the success or failure of the deletion.
 
-"## Request Payloads"
+## Request Payloads
 1. postName
    {
   "lname":"nico",
@@ -41,7 +38,7 @@ This API consist of four(4) endpoints:
    "id":1
    }
 
-"## Response Payloads"
+## Response Payloads
 1. postName
    {
    "status":"success","data":null
@@ -62,7 +59,7 @@ This API consist of four(4) endpoints:
    "status":"success","data":null
    }
 
-"## Usage"
+## Usage
 In order to run the API, follow this following steps:
 
 Step 1: Launch XAMPP and/or SQLyog.
@@ -77,11 +74,11 @@ Step 6: Enter the following URLs for the respective endpoints:
           4. 'deleteName' endpoint: http://localhost/api/public/deleteName
 Step 7: In Postman, navigate to the 'Body' tab and input the JSON request payload as needed for your API requests.
 
-"## License"
+## License
 No license has been used in this API.
 
-"## Contributors"
+## Contributors
 Mr. Manny R. Hortizuela
 
-"## Contact"
+## Contact
 aljongaspar143@gmail.com
